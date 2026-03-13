@@ -1,3 +1,5 @@
+# Análisis de precios históricos de commodities agrícolas 2005-2025
+
 Este proyecto analiza la evolución histórica de precios y volatilidad de soja, maíz y trigo durante el período 2005-2025, utilizando como fuente los contratos de futuros del Chicago Board of Trade (CBOT) la referencia internacional de precios para estos granos y la base sobre la que se forman los precios en los principales mercados exportadores del mundo, incluyendo Argentina.
 
 Vale aclarar que este es un análisis de precios internacionales de referencia. Adaptar estas series a la realidad local de un mercado como el argentino, requiere incorporar variables adicionales como retenciones, tipo de cambio y base, lo que excede el alcance de este proyecto.
