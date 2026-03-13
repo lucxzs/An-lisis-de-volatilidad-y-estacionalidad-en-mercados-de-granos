@@ -36,7 +36,7 @@ Se calculó la volatilidad histórica anualizada mediante una ventana móvil de 
 
 En condiciones normales de mercado, los tres commodities operaron en un rango de volatilidad de entre 15% y 35%, con el trigo mostrando consistentemente niveles más elevados que el maíz y la soja.
 
-![](Volatipidad-entero.png)
+![](Graficos/Volatipidad-entero.png)
 
 El período analizado presenta cuatro eventos de volatilidad extrema claramente identificables:
 
@@ -70,7 +70,7 @@ En este apartado se analizó la performance acumulada a lo largo del período 20
 Al cierre del período analizado, el maíz registró el mayor rendimiento acumulado con un valor normalizado de 218, equivalente a una suba del 118% respecto al valor inicial.
 La soja finalizó en 191, acumulando un 91% de ganancia, mientras que el trigo fue el de menor performance con un valor final de 167, representando una suba del 67%.
 
-![](Precios-normalizados-todo.png)
+![](Graficos/Precios-normalizados-todo.png)
 
 Sin embargo, el análisis de máximos históricos revela una historia distinta. El trigo alcanzó el pico más alto de los tres commodities en 2022, llegando a 471, casi cinco veces su valor inicial, impulsado por el shock de oferta generado por la guerra en Ucrania. 
 El maíz registró su máximo en 2012 con 412, en un contexto de sequía severa en Estados Unidos, uno de los mayores productores mundial, mientras que la soja también alcanzó su pico en 2012 con 329
@@ -88,7 +88,7 @@ Este análisis busca responder dos preguntas concretas: qué tan fuerte golpeó 
 
 Para medirlo se utilizó el drawdown histórico, una métrica que mide cuánto se ha alejado el precio de su máximo histórico más reciente. Un valor de 0 indica que el commodity se encuentra en su máximo. Los valores negativos muestran la magnitud de la caída respecto a ese punto, por ejemplo, -0.20 significa que el precio está un 20% por debajo de su máximo previo, mientras que -0.60 indica una caída del 60%. Cuanto más negativo es el valor, mayor es la distancia respecto al pico anterior. Cuando el drawdown vuelve a 0, significa que el precio ha recuperado completamente ese máximo o ha alcanzado uno nuevo.
 
-![](dd-anual.png)
+![](Graficos/dd-anual.png)
 
 Durante el período 2005-2025 se presentan tres episodios de estrés claramente identificables:
 
@@ -120,7 +120,7 @@ Para este análisis no se compararon los precios directamente sino las variacion
 
 La escala va de -1 a 1, donde valores cercanos a 1 indican que los commodities se mueven en la misma dirección, valores cercanos a 0 indican ausencia de relación y valores cercanos a -1 indican movimientos opuestos.
 
-![](correlacion_commodities.png)
+![](Graficos/correlacion_commodities.png)
 
 
 Los resultados de la tabla muestran correlaciones bajas y positivas entre los tres pares. El maiz contra la soja registró la correlación más alta con 0.28. Maiz contra trigo mostró 0.23, compartiendo factores climáticos y de demanda global. Soja vs trigo resultó la más baja con 0.15, la soja responde principalmente a la demanda de China mientras que el trigo es más sensible a factores geopolíticos como el conflicto en Rusia y Ucrania.
